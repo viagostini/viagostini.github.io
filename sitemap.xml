@@ -7,75 +7,35 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://viagostini.github.io/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
+  <lastmod>2021-01-02T21:17:00Z</lastmod>
  </url>
  <url>
-  <loc>https://viagostini.github.io/2012/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
+  <loc>https://viagostini.github.io/2021/</loc>
+  <lastmod>2021-01-02T20:54:00Z</lastmod>
  </url>
  <url>
   <loc>https://viagostini.github.io/archive.html</loc>
-  <lastmod>2021-01-02T20:33:00Z</lastmod>
+  <lastmod>2021-01-02T21:13:00Z</lastmod>
  </url>
  <url>
   <loc>https://viagostini.github.io/categories/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://viagostini.github.io/categories/blog/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://viagostini.github.io/categories/cat_nikola/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://viagostini.github.io/categories/demo/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://viagostini.github.io/categories/nikola/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://viagostini.github.io/categories/python/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
+  <lastmod>2021-01-02T21:17:00Z</lastmod>
  </url>
  <url>
   <loc>https://viagostini.github.io/en/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
+  <lastmod>2021-01-02T21:17:00Z</lastmod>
  </url>
  <url>
-  <loc>https://viagostini.github.io/en/2012/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
+  <loc>https://viagostini.github.io/en/2021/</loc>
+  <lastmod>2021-01-02T20:54:00Z</lastmod>
  </url>
  <url>
   <loc>https://viagostini.github.io/en/archive.html</loc>
-  <lastmod>2021-01-02T20:33:00Z</lastmod>
+  <lastmod>2021-01-02T21:13:00Z</lastmod>
  </url>
  <url>
   <loc>https://viagostini.github.io/en/categories/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://viagostini.github.io/en/categories/blog/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://viagostini.github.io/en/categories/cat_nikola/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://viagostini.github.io/en/categories/demo/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://viagostini.github.io/en/categories/nikola/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://viagostini.github.io/en/categories/python/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
+  <lastmod>2021-01-02T21:17:00Z</lastmod>
  </url>
  <url>
   <loc>https://viagostini.github.io/en/galleries/</loc>
@@ -156,9 +116,9 @@
   <xhtml:link rel="alternate" hreflang="pt_br" href="https://viagostini.github.io/pages/theming/" />
  </url>
  <url>
-  <loc>https://viagostini.github.io/en/posts/welcome-to-nikola/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="https://viagostini.github.io/posts/welcome-to-nikola/" />
+  <loc>https://viagostini.github.io/en/posts/primeiro-post/</loc>
+  <lastmod>2021-01-02T20:54:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://viagostini.github.io/posts/primeiro-post/" />
  </url>
  <url>
   <loc>https://viagostini.github.io/galleries/</loc>
@@ -170,7 +130,7 @@
  </url>
  <url>
   <loc>https://viagostini.github.io/listings/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
+  <lastmod>2021-01-02T20:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://viagostini.github.io/listings/__pycache__/</loc>
@@ -178,7 +138,11 @@
  </url>
  <url>
   <loc>https://viagostini.github.io/listings/hello.py.html</loc>
-  <lastmod>2021-01-02T20:33:00Z</lastmod>
+  <lastmod>2021-01-02T21:13:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://viagostini.github.io/listings/test.py.html</loc>
+  <lastmod>2021-01-02T21:13:00Z</lastmod>
  </url>
  <url>
   <loc>https://viagostini.github.io/pages/about-nikola/</loc>
@@ -237,7 +201,7 @@
   <lastmod>2021-01-02T20:22:00Z</lastmod>
  </url>
  <url>
-  <loc>https://viagostini.github.io/posts/welcome-to-nikola/</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
+  <loc>https://viagostini.github.io/posts/primeiro-post/</loc>
+  <lastmod>2021-01-02T20:54:00Z</lastmod>
  </url>
 </urlset>

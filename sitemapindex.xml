@@ -6,71 +6,31 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://viagostini.github.io/categories/blog.xml</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://viagostini.github.io/categories/cat_nikola.xml</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://viagostini.github.io/categories/demo.xml</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://viagostini.github.io/categories/nikola.xml</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://viagostini.github.io/categories/python.xml</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://viagostini.github.io/en/categories/blog.xml</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://viagostini.github.io/en/categories/cat_nikola.xml</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://viagostini.github.io/en/categories/demo.xml</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://viagostini.github.io/en/categories/nikola.xml</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://viagostini.github.io/en/categories/python.xml</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://viagostini.github.io/en/galleries/demo/rss.xml</loc>
-  <lastmod>2021-01-02T20:33:00Z</lastmod>
+  <lastmod>2021-01-02T21:13:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://viagostini.github.io/en/galleries/rss.xml</loc>
-  <lastmod>2021-01-02T20:33:00Z</lastmod>
+  <lastmod>2021-01-02T21:13:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://viagostini.github.io/en/rss.xml</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
+  <lastmod>2021-01-02T21:13:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://viagostini.github.io/galleries/demo/rss.xml</loc>
-  <lastmod>2021-01-02T20:33:00Z</lastmod>
+  <lastmod>2021-01-02T21:13:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://viagostini.github.io/galleries/rss.xml</loc>
-  <lastmod>2021-01-02T20:33:00Z</lastmod>
+  <lastmod>2021-01-02T21:13:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://viagostini.github.io/rss.xml</loc>
-  <lastmod>2021-01-02T20:22:00Z</lastmod>
+  <lastmod>2021-01-02T21:13:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://viagostini.github.io/sitemap.xml</loc>
-  <lastmod>2021-01-02T20:33:00Z</lastmod>
+  <lastmod>2021-01-02T21:17:00Z</lastmod>
  </sitemap>
 </sitemapindex>
