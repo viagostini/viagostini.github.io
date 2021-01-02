@@ -13,6 +13,8 @@ Fazendo esse post aqui pra testar as funcionalidades e o tema, ver se está tudo
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor tellus, egestas ac feugiat quis, vehicula ac justo. Sed a cursus mi, at sollicitudin turpis. Nulla ut dui vitae quam auctor tempor. Proin pharetra eu neque sed molestie. Praesent congue, metus in dapibus pulvinar, felis augue laoreet ante, eu tincidunt risus ipsum id est. Nullam dapibus sapien sem, posuere lobortis augue porttitor quis. Fusce laoreet sodales porttitor. Fusce et pellentesque nunc. Curabitur non quam pulvinar orci pulvinar auctor. Ut porttitor ipsum quam. Integer venenatis nunc in sem placerat, hendrerit imperdiet sapien tempor. In at finibus magna, eu mollis mi. Donec malesuada enim sit amet nisl interdum venenatis.
 
+<!-- TEASER_END -->
+
 Vamos ver como ficam os códigos:
 
 Inline markdown em Python:

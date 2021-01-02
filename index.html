@@ -56,70 +56,7 @@
     <div>
 <p>Fazendo esse post aqui pra testar as funcionalidades e o tema, ver se está tudo ok.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor tellus, egestas ac feugiat quis, vehicula ac justo. Sed a cursus mi, at sollicitudin turpis. Nulla ut dui vitae quam auctor tempor. Proin pharetra eu neque sed molestie. Praesent congue, metus in dapibus pulvinar, felis augue laoreet ante, eu tincidunt risus ipsum id est. Nullam dapibus sapien sem, posuere lobortis augue porttitor quis. Fusce laoreet sodales porttitor. Fusce et pellentesque nunc. Curabitur non quam pulvinar orci pulvinar auctor. Ut porttitor ipsum quam. Integer venenatis nunc in sem placerat, hendrerit imperdiet sapien tempor. In at finibus magna, eu mollis mi. Donec malesuada enim sit amet nisl interdum venenatis.</p>
-<p>Vamos ver como ficam os códigos:</p>
-<p>Inline markdown em Python:</p>
-<pre class="code literal-block"><span></span><code><span class="k">def</span> <span class="nf">square</span><span class="p">(</span><span class="n">num</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
-    <span class="k">return</span> <span class="n">num</span> <span class="o">**</span> <span class="mi">2</span>
-</code></pre>
-
-<p>E em C++:</p>
-<pre class="code literal-block"><span></span><code><span class="kt">int</span> <span class="nf">square</span><span class="p">(</span><span class="kt">int</span> <span class="n">num</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="n">num</span> <span class="o">*</span> <span class="n">num</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre>
-
-<p>Listing com line numbers:</p>
-<p><a href="listings/test.py.html">test.py</a>  <a href="listings/test.py">(Código)</a></p>
-<table class="highlighttable"><tr>
-<td class="linenos"><div class="linenodiv"><pre>1
-2</pre></div></td>
-<td class="code">
-<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">square</span><span class="p">(</span><span class="n">num</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
-    <span class="k">return</span> <span class="n">num</span> <span class="o">**</span> <span class="mi">2</span>
-</pre></div>
-</td>
-</tr></table>
-<p>Github Gists:
-<script src="https://gist.github.com/01be7b8344703d60f886717f8381613f.js"></script><noscript><pre>####################
-# SageMaker Model
-####################
-resource "aws_sagemaker_model" "model" {
-  name = "model"
-  execution_role_arn = "${aws_iam_role.sagemaker-model.arn}"
-
-  primary_container {
-    image = "${aws_ecr_repository.ecr.repository_url}"
-    model_data_url = "https://s3-ap-northeast-1.amazonaws.com/${aws_s3_bucket.bucket.bucket}/trained-model-filename.tar.gz"
-  }
-}
-
-####################
-# SageMaker EndpointConfig
-####################
-resource "aws_sagemaker_endpoint_configuration" "endpoint-config" {
-  name = "endpoint-config"
-
-  production_variants {
-    variant_name = "variant-1"
-    model_name = "${aws_sagemaker_model.model.name}"
-    instance_type = "ml.t2.medium"
-    initial_instance_count  = 1
-    initial_variant_weight  = 1
-  }
-}
-
-####################
-# SageMaker Endpoint
-####################
-resource "aws_sagemaker_endpoint" "endpoint" {
-  name = "endpoint"
-  endpoint_config_name = "${aws_sagemaker_endpoint_configuration.endpoint-config.name}"
-}</pre></noscript></p>
-<p>Twitter posts:</p>
-<blockquote class="twitter-tweet">
-<p lang="en" dir="ltr">I decided that retirement was boring and have joined the Developer Division at Microsoft. To do what? Too many options to say! But it’ll make using Python better for sure (and not just on Windows :-). There’s lots of open source here. Watch this space.</p>— Guido van Rossum (@gvanrossum) <a href="https://twitter.com/gvanrossum/status/1326932991566700549?ref_src=twsrc%5Etfw">November 12, 2020</a>
-</blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p class="more"><a href="posts/primeiro-post/">Leia mais…</a></p>
 </div>
     </div>
     </article>
