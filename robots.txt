@@ -1,0 +1,4 @@
+Sitemap: https://viagostini.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: viagostini.github.io
