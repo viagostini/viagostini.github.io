@@ -17,7 +17,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Vinicius Agostini"  # (translatable)
-BLOG_TITLE = "My Nikola Site"  # (translatable)
+BLOG_TITLE = "Programming Bits"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://viagostini.github.io/"
@@ -143,12 +143,10 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Arquivo"),
         ("/categories/", "Tags"),
-        ("/rss.xml", "Feed RSS"),
     ),
     "en": (
         ("/en/archive.html", "Archive"),
         ("/en/categories/", "Tags"),
-        ("/en/rss.xml", "RSS feed"),
     ),
 }
 
@@ -158,7 +156,7 @@ NAVIGATION_LINKS = {
 NAVIGATION_ALT_LINKS = {DEFAULT_LANG: ()}
 
 # Name of the theme to use.
-THEME = "bootblog4"
+THEME = "lanyon"
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
@@ -242,12 +240,14 @@ POSTS = (
     ("posts/*.md", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
     ("posts/*.html", "posts", "post.tmpl"),
+    ("posts/*.ipynb", "posts", "post.tmpl"),
 )
 PAGES = (
     ("pages/*.rst", "pages", "page.tmpl"),
     ("pages/*.md", "pages", "page.tmpl"),
     ("pages/*.txt", "pages", "page.tmpl"),
     ("pages/*.html", "pages", "page.tmpl"),
+    ("pages/*.ipynb", "pages", "page.tmpl"),
 )
 
 
@@ -933,7 +933,7 @@ IMAGE_FOLDERS = {"images": "images"}
 # )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
-# INDEX_TEASERS = False
+INDEX_TEASERS = True
 
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
