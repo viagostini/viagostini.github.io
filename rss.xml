@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming Bits</title><link>https://viagostini.github.io/</link><description>Personal blog powered by Nikola static site generator</description><atom:link href="https://viagostini.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>pt_br</language><copyright>Contents © 2021 &lt;a href="mailto:vinicius.agostini19@gmail.com"&gt;Vinicius Agostini&lt;/a&gt; </copyright><lastBuildDate>Sat, 02 Jan 2021 21:21:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Primeiro post</title><link>https://viagostini.github.io/posts/primeiro-post/</link><dc:creator>Vinicius Agostini</dc:creator><description>&lt;div&gt;&lt;p&gt;Fazendo esse post aqui pra testar as funcionalidades e o tema, ver se está tudo ok.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor tellus, egestas ac feugiat quis, vehicula ac justo. Sed a cursus mi, at sollicitudin turpis. Nulla ut dui vitae quam auctor tempor. Proin pharetra eu neque sed molestie. Praesent congue, metus in dapibus pulvinar, felis augue laoreet ante, eu tincidunt risus ipsum id est. Nullam dapibus sapien sem, posuere lobortis augue porttitor quis. Fusce laoreet sodales porttitor. Fusce et pellentesque nunc. Curabitur non quam pulvinar orci pulvinar auctor. Ut porttitor ipsum quam. Integer venenatis nunc in sem placerat, hendrerit imperdiet sapien tempor. In at finibus magna, eu mollis mi. Donec malesuada enim sit amet nisl interdum venenatis.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://viagostini.github.io/posts/primeiro-post/"&gt;Leia mais…&lt;/a&gt; (1 mín restante para leitura)&lt;/p&gt;&lt;/div&gt;</description><guid>https://viagostini.github.io/posts/primeiro-post/</guid><pubDate>Sat, 02 Jan 2021 20:54:03 GMT</pubDate></item></channel></rss>
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming Bits</title><link>https://viagostini.github.io/</link><description>Personal blog powered by Nikola static site generator</description><atom:link href="https://viagostini.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>pt_br</language><copyright>Contents © 2021 &lt;a href="mailto:vinicius.agostini19@gmail.com"&gt;Vinicius Agostini&lt;/a&gt; </copyright><lastBuildDate>Sun, 07 Feb 2021 22:42:58 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bem vindos</title><link>https://viagostini.github.io/posts/bem-vindos/</link><dc:creator>Vinicius Agostini</dc:creator><description>&lt;div&gt;&lt;p&gt;Olá, sejam bem vindos ao meu blog! &lt;/p&gt;
+&lt;p&gt;Esse vai ser um post bem curto, só pra falar um pouco sobre quem sou eu e o que pretendo
+postar por aqui.&lt;/p&gt;
+&lt;p&gt;Meu nome é Vinicius, sou recém formado em Ciência da Computação atualmente trabalhando como
+Engenheiro de Software e no momento meus interesses são bastante variados.
+A ideia aqui é postar qualquer coisa que vier na minha cabeça a
+respeito de programação. Em particular, algo que eu gosto bastante de fazer é
+experimentar novas linguagens, tecnologias e ferramentas e pretendo trazer vários posts
+demonstrando essas coisas.&lt;/p&gt;
+&lt;p&gt;Esperem conteúdos envolvendo docker, python, machine learning, problemas de
+programação e por aí vai. Quanto a frequência de postagem, não tem nada definido por
+enquanto, vai depender de vários fatores como inspiração, tempo, etc. Quem sabe um dia
+a coisa não fica mais profissional?&lt;/p&gt;
+&lt;p&gt;Por enquanto é isso, logo mais vem o primeiro post oficial com algum conteúdo desse blog.
+Até mais!&lt;/p&gt;
+&lt;p align="center"&gt;
+    &lt;img src="https://viagostini.github.io/images/gato_tchau.gif"&gt;
+&lt;/p&gt;&lt;/div&gt;</description><guid>https://viagostini.github.io/posts/bem-vindos/</guid><pubDate>Fri, 29 Jan 2021 00:17:35 GMT</pubDate></item></channel></rss>
