@@ -1,6 +1,8 @@
 site_name: Programming Bits
+
 theme:
   name: material
+
 markdown_extensions:
   - admonition
   - pymdownx.arithmatex:
@@ -8,6 +10,11 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+
+extra:
+  analytics:
+    provider: google
+    property: ${GA4_ID}
 
 extra_javascript:
   - javascripts/mathjax.js
