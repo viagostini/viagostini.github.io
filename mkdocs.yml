@@ -2,6 +2,8 @@ site_name: Programming Bits
 
 theme:
   name: material
+  features:
+    - navigation.footer
 
 markdown_extensions:
   - admonition
@@ -19,6 +21,11 @@ extra:
   analytics:
     provider: google
     property: ${GA4_ID}
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/viagostini
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/viniciusagostini/?locale=en_US
 
 extra_javascript:
   - javascripts/mathjax.js
