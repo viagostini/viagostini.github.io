@@ -9,34 +9,37 @@ Given an array of strings `words`, group the anagrams together. You can return t
 ## Solution
 The words that should be on the same group are the words that have the same frequencies for each letter on the alphabet. So all we have to do is count the frequencies for each word and somehow track the ones that are equal.
 
-=== "Python"
-    ```python
-    from collections import defaultdict
+```python
+from collections import defaultdict
 
 
-    def init_counter() -> list[int]:
-        return [0] * 27
+def init_counter() -> list[int]:
+    """Utility function to create empty counter for alphabet letters"""
+    return [0] * 27
 
 
-    def idx(ch: str) -> int:
-        return ord(ch) - ord("a")
+def idx(ch: str) -> int:
+    """Utility function to map character to 0..26"""
+    return ord(ch) - ord("a")
 
 
-    def count_to_str(count: list[int]) -> str:
-        return ",".join(map(str, count))
+def count_to_str(count: list[int]) -> str:
+    """Utility function to represent a frequency count as a hashable str"""
+    return ",".join(map(str, count))
 
 
-    def group_anagrams(words: list[str]) -> list[list[str]]:
-        m = defaultdict(list)
+def group_anagrams(words: list[str]) -> list[list[str]]:
+    anagrams = defaultdict(list)
 
-        for word in word:
-            f = init_counter()
+    for word in words:
+        count = init_counter()
 
-            for ch in word:
-                f[idx(ch)] += 1
+        for ch in words:
+            count[idx(ch)] += 1
 
-            hash_key = count_to_str(f)
-            m[hash_key].append(word)
+        hash_key = count_to_str(count)
+        anagrams[hash_key].append(word)
 
-        return [key for _, key in m.items()]
-    ``` 
+    return [key for _, key in anagrams.items()]
+``` 
+
