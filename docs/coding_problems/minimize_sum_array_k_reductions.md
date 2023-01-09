@@ -2,15 +2,11 @@
 
 Given an array of integers `arr[]` consisting of **N** integers, the task is to minimize the sum of the given array by performing at most **K** operations, where each operation involves reducing an array element $arr[i]$ to $\left\lfloor{\frac{arr[i]}{2}}\right\rfloor$**.**
 
-## Solution:
+## Solution
 
 To minimize the final sum of the array, we should try to maximize the reductions. We can do that by choosing to reduce the largest element at every iteration.
 
 ## Approach: Use Max-Heap
-
-**Time Complexity: $O(n \log n + k \log n)$**
-
-**Space Complexity: $O(n)$**
 
 Python has a `heapq` module that contains functions that operate on lists with heap semantics. The only caveat here is that Python only implements a MinHeap by default, so we have a few options to circumvent that:
 
@@ -66,7 +62,7 @@ Python has a `heapq` module that contains functions that operate on lists with h
 
         return sum(h)
     ```
-### Complexity Analysis
+## Complexity Analysis
 === "Time"
     Inserting a new item in a heap take $O(\log n)$ time where $n$ is the number of elements. Popping the largest element is $O(1)$.
 
@@ -74,3 +70,4 @@ Python has a `heapq` module that contains functions that operate on lists with h
     Adding that up we get $O(n \log n + k \log n)$.
 
 === "Space"
+    We start with a list of $N$ elements and the reductions don't change the amount of items stored in the list, so $O(n)$.
